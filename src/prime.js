@@ -1,4 +1,4 @@
-var num = prompt("Enter number");
+var num = 12;
 num = parseInt(num, 10);
 var isPrime = true;
 
