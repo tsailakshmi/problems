@@ -2,8 +2,8 @@ var num = prompt("Enter number");
 num = parseInt(num, 10);
 var isPrime = true;
 
-for (var i = 1; i <= num / 2; i++) {
-  if (i % num === 0) {
+for (var i = 2; i <= num / 2; i++) {
+  if (num % i === 0) {
     isPrime = false;
     break;
   }
